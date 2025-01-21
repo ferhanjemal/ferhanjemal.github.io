@@ -26,4 +26,4 @@ Ferhan’s skill set reflects a strong blend of engineering and software develop
 
 Ferhan’s work has been recognized in various academic and community forums. Notably, he contributed to the launch of a Biomedical Device Company covered by [Nashville Business Journal](https://www.bizjournals.com/nashville/inno/stories/news/2024/12/31/motus-vanderbilt-university-health-care-technology.html/), highlighting his commitment to innovation and compassionate business.
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+<img src="/assets/img/_23A7331.jpg" alt="Ferhan Jemal" style="width:200px;"/>
