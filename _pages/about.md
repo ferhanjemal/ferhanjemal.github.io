@@ -1,31 +1,29 @@
 ---
 
-title: "About David Florian"
+title: "About Ferhan Jemal"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Ferhan is passionate about technology and innovation, bridging both technical expertise and creativity to solve complex problems. He has cultivated a broad background that spans software development, hardware design, and rapid prototyping. 
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
 * Vanderbilt University
-  * PhD Biomedical Engineering
+  * BS Engineering Science
+  * Digital Fabrication Minor
+  * Engineering Management Minor
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Ferhan’s skill set reflects a strong blend of engineering and software development, with particular expertise in:
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+* CAD Modeling
+* Circuit Design
+* Programming
+* 3D Printing & Rapid Prototyping
 
 ## Press 
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+Ferhan’s work has been recognized in various academic and community forums. Notably, he contributed to the launch of a tech mentorship program covered by [Nashville Business Journal](https://www.bizjournals.com/nashville/inno/stories/news/2024/12/31/motus-vanderbilt-university-health-care-technology.html/), highlighting his commitment to innovation and collaboration.
 
 <img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
