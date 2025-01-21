@@ -24,6 +24,6 @@ Ferhan’s skill set reflects a strong blend of engineering and software develop
 
 ## Press 
 
-Ferhan’s work has been recognized in various academic and community forums. Notably, he contributed to the launch of a tech mentorship program covered by [Nashville Business Journal](https://www.bizjournals.com/nashville/inno/stories/news/2024/12/31/motus-vanderbilt-university-health-care-technology.html/), highlighting his commitment to innovation and collaboration.
+Ferhan’s work has been recognized in various academic and community forums. Notably, he contributed to the launch of a Biomedical Device Company covered by [Nashville Business Journal](https://www.bizjournals.com/nashville/inno/stories/news/2024/12/31/motus-vanderbilt-university-health-care-technology.html/), highlighting his commitment to innovation and compassionate business.
 
 <img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
