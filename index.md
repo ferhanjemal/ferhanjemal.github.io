@@ -1,5 +1,5 @@
 ---
-title: "Example Web Page"
+title: "Ferhan Jemal's Portfolio Page"
 layout: splash
 header:
   overlay_color: "#000"
@@ -8,19 +8,13 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Ferhan Jemal is an engineer with a passion for teaching, the open-source community, and hands-on engineering. With expertise in CAD design, circuit development, and software programming, he also excels at rapid prototyping and 3D printing innovations."
+excerpt: "Ferhan Jemal is an engineer and entrepreneur with a passion for designing innovative solutions that drive meaningful change. As the CEO and founder of a medical device startup, I have successfully combined technical expertise with business acumen to develop a groundbreaking product that is reshaping accessibility. My goal is to continue leveraging my skills in product design, regulatory preparation, and market strategy to create impactful solutions in the tech and healthcare industries."
+
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/Screenshot 2025-01-21 020142.png
+    alt: "Linear Actuator"
+    title: "Custom Linear Actuator"
+    excerpt: "Built for customizing and programming linear actuator speeds."
 ---
 
 {% include feature_row %}
