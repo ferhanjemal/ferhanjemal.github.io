@@ -16,10 +16,10 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-**Introduction**  
+Introduction  
 Microfluidic devices are small-scale fluid handling systems used for applications in biology, chemistry, and engineering. One such application is **Pinch Flow Fractionation (PFF)**, a method for continuously sorting particles based on size using controlled laminar flow profiles in a microchannel.
 
-**How does Pinch Flow Fractionation work?**  
+How does Pinch Flow Fractionation work?  
 PFF works by aligning particles along a streamline in a narrow, pinched section of a microchannel. As the flow expands, larger particles experience different flow forces, causing them to separate into distinct regions based on their size.
 
 **Application Example**  
