@@ -19,14 +19,15 @@ gallery:
 ## Introduction
 Microfluidic devices are small-scale fluid handling systems used for applications in biology, chemistry, and engineering. One such application is **Pinch Flow Fractionation (PFF)**, a method for continuously sorting particles based on size using controlled laminar flow profiles in a microchannel.
 
-**How does Pinch Flow Fractionation work?**
+### How does Pinch Flow Fractionation work?
 PFF works by aligning particles along a streamline in a narrow, pinched section of a microchannel. As the flow expands, larger particles experience different flow forces, causing them to separate into distinct regions based on their size.
 
-**Application Example:**
+### Application Example
 One key application of PFF is in biomedical research, where it is used for sorting biological cells for diagnostics and drug testing. **Yamada et al. (2004)** demonstrated PFF for separating polymer microbeads in a continuous, controlled process. [(Read the paper)](https://pubs.acs.org/doi/10.1021/ac049863r)
 
 ## Fabrication Process
 The microfluidic device was fabricated using **3D resin printing and PDMS molding**:
+
 1. **CAD Design** – The mold was designed in Fusion 360, ensuring precise dimensions for efficient sorting.
 2. **3D Printing the Mold** – A high-resolution Form 3+/4 SLA printer was used to print the mold.
 3. **Parylene Coating** – The mold was coated with parylene to prevent PDMS adhesion.
@@ -34,6 +35,7 @@ The microfluidic device was fabricated using **3D resin printing and PDMS moldin
 5. **Plasma Bonding** – The PDMS device was bonded to a glass slide to create a sealed microchannel system.
 
 ## Discussion
+
 ### Why is Parylene Coating Necessary?
 Resin-printed molds can inhibit PDMS curing, leading to defects. A **parylene coating** ensures a smooth, non-stick surface, making it easier to remove the PDMS device.
 
