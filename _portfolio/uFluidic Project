@@ -5,68 +5,61 @@ header:
   image: /assets/img/Cyber-Scooter-Banner.jpg
   teaser: /assets/img/Cyber-Scooter-TH.jpg
 gallery:
-  - url: /assets/img/Cyber-Scooter-1.jpg
-    image_path: assets/img/Cyber-Scooter-1.jpg
-    alt: "placeholder image 1"
-  - url: /assets/img/Cyber-Scooter-2.jpg
-    image_path: assets/img/Cyber-Scooter-2.jpg
-    alt: "placeholder image 2"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
-    alt: "placeholder image 3"
+  - image_path: /assets/img/Cyber-Scooter-1.jpg
+  - image_path: /assets/img/Cyber-Scooter-2.jpg
+  - image_path: /assets/img/Cyber-Scooter-3.jpg
 ---
 
-Introduction  
+# Introduction
+
 Microfluidic devices are small-scale fluid handling systems used for applications in biology, chemistry, and engineering. One such application is **Pinch Flow Fractionation (PFF)**, a method for continuously sorting particles based on size using controlled laminar flow profiles in a microchannel.
 
-How does Pinch Flow Fractionation work?  
+## How does Pinch Flow Fractionation work?
+
 PFF works by aligning particles along a streamline in a narrow, pinched section of a microchannel. As the flow expands, larger particles experience different flow forces, causing them to separate into distinct regions based on their size.
 
-**Application Example**  
+### Application Example
+
 One key application of PFF is in biomedical research, where it is used for sorting biological cells for diagnostics and drug testing. **Yamada et al. (2004)** demonstrated PFF for separating polymer microbeads in a continuous, controlled process. [(Read the paper)](https://pubs.acs.org/doi/10.1021/ac049863r)
 
----
+# Fabrication Process
 
-**Fabrication Process**  
 The microfluidic device was fabricated using **3D resin printing and PDMS molding**:
 
-1. **CAD Design** – The mold was designed in Fusion 360, ensuring precise dimensions for efficient sorting.  
-2. **3D Printing the Mold** – A high-resolution Form 3+/4 SLA printer was used to print the mold.  
-3. **Parylene Coating** – The mold was coated with parylene to prevent PDMS adhesion.  
-4. **PDMS Casting** – PDMS was poured into the mold, cured, and peeled off to form the microfluidic channels.  
-5. **Plasma Bonding** – The PDMS device was bonded to a glass slide to create a sealed microchannel system.  
+1. **CAD Design** – The mold was designed in Fusion 360, ensuring precise dimensions for efficient sorting.
+2. **3D Printing the Mold** – A high-resolution Form 3+/4 SLA printer was used to print the mold.
+3. **Parylene Coating** – The mold was coated with parylene to prevent PDMS adhesion.
+4. **PDMS Casting** – PDMS was poured into the mold, cured, and peeled off to form the microfluidic channels.
+5. **Plasma Bonding** – The PDMS device was bonded to a glass slide to create a sealed microchannel system.
 
----
+# Discussion
 
-**Discussion**  
+### Why is Parylene Coating Necessary?
 
-**Why is Parylene Coating Necessary?**  
 Resin-printed molds can inhibit PDMS curing, leading to defects. A **parylene coating** ensures a smooth, non-stick surface, making it easier to remove the PDMS device.
 
-**Sorting Mechanism and Design Considerations**  
-- **Pinch Width**: 750 μm to accommodate the largest particles.  
-- **Outlet Widths**: Designed symmetrically to maintain flow consistency.  
-- **Port Locations**: Optimized to prevent flow disruption and particle recombination.  
+### Sorting Mechanism and Design Considerations
 
-**Equal Flow Rate Distribution**  
-A major challenge in PFF is maintaining equal flow rates at the outlets. This was achieved by:  
-- **Ensuring equal outlet lengths** to minimize backpressure differences.  
-- **Using a leveling system** to prevent gravity-driven flow variations.  
-- **Testing and calibrating** the device to confirm separation efficiency.  
+- **Pinch Width**: 750 μm to accommodate the largest particles.
+- **Outlet Widths**: Designed symmetrically to maintain flow consistency.
+- **Port Locations**: Optimized to prevent flow disruption and particle recombination.
 
----
+### Equal Flow Rate Distribution
 
-**Future Improvements**  
-Based on testing, potential improvements include:  
-- **Optimizing the pinch segment shape** for better alignment of particles.  
-- **Incorporating asymmetric PFF (AsPFF)** for enhanced separation.  
-- **Using pressure-driven flow control** to fine-tune separation efficiency.  
+A major challenge in PFF is maintaining equal flow rates at the outlets. This was achieved by:
+- **Ensuring equal outlet lengths** to minimize backpressure differences.
+- **Using a leveling system** to prevent gravity-driven flow variations.
+- **Testing and calibrating** the device to confirm separation efficiency.
 
----
+# Future Improvements
 
-**References**  
+Based on testing, potential improvements include:
+- **Optimizing the pinch segment shape** for better alignment of particles.
+- **Incorporating asymmetric PFF (AsPFF)** for enhanced separation.
+- **Using pressure-driven flow control** to fine-tune separation efficiency.
+
+# References
+
 Yamada, M., Nakashima, M., & Seki, M. (2004). **Pinched Flow Fractionation: Continuous Size Separation of Particles Utilizing a Laminar Flow Profile in a Pinched Microchannel**. *Analytical Chemistry, 76*(18), 5465-5471. [(Read the paper)](https://pubs.acs.org/doi/10.1021/ac049863r)
 
----
-
-*This project was developed as part of CHBE 4200 - uFluidic VPP Project.*
+{% include gallery caption="Microfluidic Device Gallery" %}
