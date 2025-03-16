@@ -7,8 +7,6 @@ header:
 
 ---
 
-# uFluidic Project
-
 ## Introduction
 
 I am developing a microfluidic device based on pinch flow fractionation (PFF), which uses a narrow channel (approximately 50 µm wide) to align particles along one wall. As the channel widens, particles separate by size—a method that can be applied to tasks such as cell sorting in biomedical diagnostics. According to Yamada et al. (2004, *Anal. Chem.* 76, 5465–5471; [link](https://pubs.acs.org/doi/10.1021/ac049863r)), this technique reliably separates particles in a purely laminar flow regime without external forces.
@@ -22,7 +20,7 @@ So far, I have completed the following steps:
 2. **Printing and Curing the Mold:**  
    Printed the mold using a high-resolution resin printer, followed by washing, drying, and a brief UV/heat cure. This ensured the mold's surface was hardened and free of uncured resin.
 
-*Note: The subsequent steps (parylene coating, PDMS casting, and plasma bonding) are planned but have not yet been executed.*
+*Note: The following steps (parylene coating, PDMS casting, and plasma bonding) are planned but have not yet been executed.*
 
 ## Discussion
 
@@ -30,7 +28,7 @@ At this stage, the focus was on achieving an accurate and reliable mold. The des
 
 ## Multimedia
 
-The gallery below shows the resin-printed mold (Fusion 360 screenshot) along with other placeholder images. No additional assets have been added or removed from the original files.
+The gallery below shows the resin-printed mold (Fusion 360 screenshot). CAD Model was unable to be added currently because of Fusion 360 membership expiration, but will be added soon! 
 
 ## References
 
