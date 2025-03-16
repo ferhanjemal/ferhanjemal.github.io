@@ -16,8 +16,6 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-# uFluidic Project
-
 ## Introduction
 
 Microfluidic devices use networks of miniature channels—often tens to hundreds of micrometers in width and depth—to manipulate small volumes of fluids. They are essential in chemical and biological applications because they provide precise control over flow and chemical environments.
