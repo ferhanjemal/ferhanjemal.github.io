@@ -2,7 +2,7 @@
 title: "uFluidic Project"
 excerpt: "This microfluidic pinch flow fractionation device is used to continuously sort small particles using laminar flow."
 header:
-  image: /assets/img/Cyber-Scooter-Banner.jpg
+  image: /assets/img/Screenshot 2025-03-13 220330.png
   teaser: /assets/img/Cyber-Scooter-TH.jpg
 gallery:
   - url: /assets/img/Cyber-Scooter-1.jpg
@@ -15,10 +15,6 @@ gallery:
     image_path: assets/img/Cyber-Scooter-3.jpg
     alt: "placeholder image 3"
 ---
-
-![Fusion 360 Mold Screenshot](/assets/img/Screenshot 2025-03-13 220330.png)
-
-# uFluidic Project
 
 ## Introduction
 
@@ -42,26 +38,4 @@ Below is an overview of the process for converting a 3D-printed mold into a fina
    Optionally, coat the mold with parylene to provide a smooth, nonstick surface. This coating prevents issues like PDMS curing inhibition or sticking during the casting process.
 
 4. **Cast PDMS**  
-   Mix PDMS prepolymer and curing agent (e.g., Sylgard™ 184) in a 10:1 ratio. Pour the mixture over the mold, degas to remove bubbles, and then cure it according to the recommended temperature and time.
-
-5. **Plasma Bond Glass Slide**  
-   Once cured, carefully peel the PDMS layer from the mold. Treat both the PDMS and the glass slide with oxygen plasma and bring them together immediately to form an irreversible bond.
-
-## Discussion
-
-**Why are resin-printed molds coated with parylene prior to casting PDMS?**  
-Resin surfaces may inhibit PDMS curing or cause the PDMS to stick, leading to defects. A parylene coating creates a smooth, chemically inert barrier that allows the PDMS to cure uniformly and be easily released from the mold.
-
-**Hypothetical applications of the microfluidic sorter:**  
-This pinch flow fractionation device can be used in biomedical cell separation, isolation of microspheres in diagnostic tests, or in materials research to separate synthetic particles by size.
-
-**Why is the geometry conducive to sorting?**  
-A narrow “pinch” segment, sized slightly larger than the smallest particles, forces all particles to align along one wall. When the channel expands, larger particles move farther from the wall compared to smaller ones. Critical dimensions include the pinch width (for alignment), the outlet width (to maintain uniform flow), and appropriate spacing for connections.
-
-**Steps or design features to ensure each outlet receives the same flow rate:**  
-Design the outlet channels symmetrically with matching lengths and widths to maintain equal backpressure. Also, ensure that tubing lengths are uniform, as even minor differences can cause flow disruptions and recombination of separated streams.
-
-**Future changes to improve sorting:**  
-- Adjust channel angles and widths to enhance resolution.  
-- Add an extra pinch segment or use multiple stages in series for more refined separations.  
-- Incorporate bubble traps or air-venting designs to prevent flo
+   Mix PDMS prepolymer and curing agent (e.g., Sylgard™ 184) in a 10:1 ratio. Pour the mixture over the mold, degas
