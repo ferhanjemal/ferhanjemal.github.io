@@ -3,17 +3,8 @@ title: "uFluidic Project"
 excerpt: "A microfluidic pinch flow fractionation device designed for sorting small particles—currently at the mold printing and curing stage."
 header:
   image: /assets/img/Screenshot 2025-03-13 220330.png
-  teaser: /assets/img/Cyber-Scooter-TH.jpg
-gallery:
-  - url: /assets/img/Cyber-Scooter-1.jpg
-    image_path: assets/img/Cyber-Scooter-1.jpg
-    alt: "placeholder image 1"
-  - url: /assets/img/Cyber-Scooter-2.jpg
-    image_path: assets/img/Cyber-Scooter-2.jpg
-    alt: "placeholder image 2"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
-    alt: "placeholder image 3"
+  teaser: /assets/img/Screenshot 2025-03-13 220330.png
+
 ---
 
 # uFluidic Project
