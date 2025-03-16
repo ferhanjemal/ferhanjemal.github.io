@@ -16,17 +16,17 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-## Introduction
+# Introduction
 
-Microfluidic devices use networks of miniature channels (often tens to hundreds of micrometers in width and depth) to manipulate small volumes of fluids. These devices have become essential in chemical and biological applications due to their ability to achieve precise control of flow and chemical environments.
+* **Microfluidic devices use networks of miniature channels (often tens to hundreds of micrometers in width and depth) to manipulate small volumes of fluids. These devices have become essential in chemical and biological applications due to their ability to achieve precise control of flow and chemical environments.
 
-**Pinch flow fractionation (PFF)** is one technique used in microfluidics for continuously sorting particles by size. In PFF, two streams (one carrying particles, one without) meet in a narrow “pinched” region, aligning all particles to one channel wall. As the channel expands, larger particles are pushed farther into the expanding flow than smaller ones, effectively separating them by size. 
+* **Pinch flow fractionation (PFF)** is one technique used in microfluidics for continuously sorting particles by size. In PFF, two streams (one carrying particles, one without) meet in a narrow “pinched” region, aligning all particles to one channel wall. As the channel expands, larger particles are pushed farther into the expanding flow than smaller ones, effectively separating them by size. 
 
-A specific example that requires sorting of small particles is **cell separation** for biomedical diagnostics. For instance, isolating tumor cells from blood relies on continuous flow fractionation to separate cells based on size differences.  
+* **A specific example that requires sorting of small particles is **cell separation** for biomedical diagnostics. For instance, isolating tumor cells from blood relies on continuous flow fractionation to separate cells based on size differences.  
   
-According to Yamada et al. (2004) [Anal. Chem. 2004, 76, 5465–5471,](https://pubs.acs.org/doi/10.1021/ac049863r) pinch flow fractionation is a robust method for separating particles in a laminar flow regime without requiring external fields (e.g., electric or magnetic).
+* **According to Yamada et al. (2004) [Anal. Chem. 2004, 76, 5465–5471,](https://pubs.acs.org/doi/10.1021/ac049863r) pinch flow fractionation is a robust method for separating particles in a laminar flow regime without requiring external fields (e.g., electric or magnetic).
 
-## Instructions
+# Instructions
 
 Below is a brief overview of how we go from a **3D-printed mold** to a **final microfluidic device**, following approaches described in the microfluidics literature (e.g., _Lab on a Chip_ methods):
 
@@ -48,29 +48,29 @@ Below is a brief overview of how we go from a **3D-printed mold** to a **final m
    - Once cured, carefully peel the PDMS layer from the mold.  
    - Treat both the PDMS and the glass slide with oxygen plasma, then immediately bring them into contact to form an irreversible bond.
 
-## Discussion
+# Discussion
 
-- **Why are resin-printed molds coated with parylene prior to casting the PDMS?**  
+* **Why are resin-printed molds coated with parylene prior to casting the PDMS?**  
   Resin surfaces can sometimes inhibit PDMS curing or cause sticking, resulting in defects. A parylene coating creates a smooth, chemically inert barrier so the PDMS cures uniformly and is easily released from the mold.
 
-- **Hypothetical applications of your microfluidic sorter**  
+* **Hypothetical applications of your microfluidic sorter**  
   This pinch flow fractionation device could be used for biomedical cell separation, isolation of microspheres in diagnostic tests, or separating synthetic particles by size in materials research.
 
-- **Why is your geometry conducive to sorting?**  
+* **Why is your geometry conducive to sorting?**  
   We designed a narrow “pinch” segment (width sized slightly larger than the smallest particles) so all particles align to one side. The channel then widens, allowing larger particles to deviate farther from the wall. Key dimensions include the pinch width (for initial alignment), outlet width (to keep flow uniform), and sufficient spacing for barbed connectors.
 
-- **Steps or design features to ensure each outlet receives the same flow rate**  
+* **Steps or design features to ensure each outlet receives the same flow rate**  
   Symmetrical outlet channels (length and width) help maintain equal backpressure. We also placed outlets far enough apart to accommodate uniform tubing lengths. Even small mismatches in tubing length or diameter can disrupt flows and recombine separated streams.
 
-- **Future changes to improve sorting**  
+* **Future changes to improve sorting**  
   - Adjusting channel angles and widths to achieve finer resolution.  
   - Including an additional pinch segment or using multiple stages in series for more complex separations.  
   - Incorporating bubble traps or air-venting designs to avoid flow blockages.
 
-- **Bonus Opportunity**  
+* **Bonus Opportunity**  
   If attempting to guarantee perfectly balanced flows for multiple outlets, one could implement a custom manifold or leveling system. Although challenging, consistent flow rates help preserve the distinct laminar layers needed for clean size separation.
 
-## Multimedia
+# Multimedia
 
 Below is an example gallery to illustrate where images of the mold, cast device, and a YouTube demo video might be embedded:
 
