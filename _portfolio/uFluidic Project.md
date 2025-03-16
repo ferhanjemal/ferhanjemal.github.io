@@ -16,6 +16,10 @@ gallery:
     alt: "placeholder image 3"
 ---
 
+![Fusion 360 Mold Screenshot](/assets/img/Screenshot 2025-03-13 220330.png)
+
+# uFluidic Project
+
 ## Introduction
 
 Microfluidic devices use networks of miniature channels—often tens to hundreds of micrometers in width and depth—to manipulate small volumes of fluids. They are essential in chemical and biological applications because they provide precise control over flow and chemical environments.
@@ -60,15 +64,4 @@ Design the outlet channels symmetrically with matching lengths and widths to mai
 **Future changes to improve sorting:**  
 - Adjust channel angles and widths to enhance resolution.  
 - Add an extra pinch segment or use multiple stages in series for more refined separations.  
-- Incorporate bubble traps or air-venting designs to prevent flow blockages.
-
-**Bonus Opportunity:**  
-For perfectly balanced flows across multiple outlets, you could design a custom manifold or leveling system. Consistent flow rates are crucial to preserving the distinct laminar layers needed for accurate size separation.
-
-## Multimedia
-
-The gallery below shows where you would embed images of the mold, the cast device, and a YouTube demo video demonstrating the device in operation. (Note: No additional images have been added or removed from the original asset files.)
-
-## References
-
-- Yamada, M., Nakashima, M., & Seki, M. (2004). *Pinched Flow Fractionation: Continuous Size Separation of Particles Utilizing a Laminar Flow Profile in a Pinched Microchannel.* Analytical Chemistry, 76(18), 5465–5471. [https://pubs.acs.org/doi/10.1021/ac049863r](https://pubs.acs.org/doi/10.1021/ac049863r)
+- Incorporate bubble traps or air-venting designs to prevent flo
