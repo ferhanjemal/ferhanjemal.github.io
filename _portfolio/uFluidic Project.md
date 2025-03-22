@@ -9,7 +9,7 @@ header:
 
 ## Introduction
 
-I am developing a microfluidic device based on pinch flow fractionation (PFF), which uses a narrow channel (approximately 50 µm wide) to align particles along one wall. As the channel widens, particles separate by size—a method that can be applied to tasks such as cell sorting in biomedical diagnostics. According to Yamada et al. (2004, *Anal. Chem.* 76, 5465–5471; [link](https://pubs.acs.org/doi/10.1021/ac049863r)), this technique reliably separates particles in a purely laminar flow regime without external forces.
+I am developing a microfluidic device based on pinch flow fractionation (PFF), which uses a narrow channel (approximately 50 µm wide) to align particles along one wall. As the channel widens, particles separate by size—a method that can be applied to tasks such as cell sorting in biomedical diagnostics. According to Yamada et al. (2004, *Analytical. Chem.* 76, 5465–5471; [link](https://pubs.acs.org/doi/10.1021/ac049863r)), this technique reliably separates particles in a purely laminar flow regime without external forces.
 
 ## Process (Completed Steps)
 
