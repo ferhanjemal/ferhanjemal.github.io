@@ -2,6 +2,8 @@
 title: "Multi-Material Plier Project"
 excerpt: "A project that combines rigid and flexible materials to create a functional plier using print-in-place techniques."
 layout: post
+  image: /assets/img/IMG_6931.jpg
+  teaser: /assets/img/IMG_6931.jpg
 ---
 
 # Multi-Material Plier Project
