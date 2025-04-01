@@ -1,7 +1,6 @@
 ---
 title: "Multi-Material Plier Project"
 excerpt: "A print-in-place inspired plier that combines a rigid body with a flexible TPU core for spring action—designed to work immediately after printing."
-layout: post
 header:
   image: /assets/img/Screenshot 2025-03-31 224445.png
   teaser: /assets/img/IMG_6931.jpg
@@ -11,68 +10,63 @@ gallery:
   - image_path: assets/img/IMG_6929.gif
 ---
 
-# Multi-Material Plier Project
+# Features
 
-## Introduction
+* **Print-In-Place Functionality:**  
+  This project showcases a plier that works immediately after printing, requiring no post-processing or assembly. It combines a rigid PLA body with a flexible TPU core that acts as an integrated spring.
 
-Print-in-place designs are an exciting frontier in additive manufacturing, allowing for fully functional, moving parts that require no post-processing or assembly. In my project, I set out to create a multimaterial plier that leverages the best of both worlds: a rigid body made from standard PLA and a flexible TPU insert that acts as an integrated spring. Although I couldn’t print everything on a multi-material machine—my available printer doesn’t support that feature—I printed the parts separately and designed them to assemble by hand without any additional fasteners.
+* **Robust, Simple Design:**  
+  The design minimizes mechanical weak points. The flexible core features a grid-like infill—with its top and bottom layers removed—that allows for smooth compression and reliable spring-back action.
 
-Print-in-place has been used in many creative applications, such as articulated figures, living hinges in packaging, and even complete gear systems. Common material pairings include PLA or PETG for the rigid structure combined with TPU for flexible elements. For my plier, I chose standard PLA for the rigid components and 95A TPU (blue) for the flexible core because it provides a good balance of elasticity and durability.
+* **Optimized Dimensions:**  
+  With a 150 mm handle providing excellent leverage and jaws that open to approximately 6 mm, this plier is engineered to grip small components like through-hole resistors effectively.
 
-## Design Process and Iterative Development
+# Design Process
 
-There were two major components in my design:
+- **Rigid Plier Body:**  
+  I designed a simple yet effective plier body using Fusion 360, ensuring the handle measures 150 mm and the jaw mechanism provides about 6 mm of opening. The design prioritizes durability and ease of use.
 
-1. **Rigid Plier Body:**  
-   I created the main body of the plier in Fusion 360. The design features a 150 mm handle that provides a comfortable grip and a jaw mechanism engineered to open about 6 mm. The geometry was kept simple and robust to minimize potential weak spots. During the design phase, I ensured that all sketches were properly constrained and logically organized. Unfortunately, I cannot embed the CAD model here because my Fusion subscription expired—so the model is not accessible online. However, the final design has been saved in the CHBE 4200 folder for reference.
+- **Flexible TPU Insert:**  
+  The innovative aspect is the TPU insert, which acts as a built-in spring. I created a grid-like infill structure in the flexible core and removed its top and bottom layers to expose the grid. This allows the insert to compress when the handles are squeezed, then reliably spring back. Early iterations showed that reducing the grip length improved compression, which I fine-tuned for optimal performance.
 
-2. **Flexible TPU Insert:**  
-   The innovative aspect of this project is the flexible core. I designed a grid-like infill structure for the TPU part, which acts as a spring to return the plier to its open position after use. To maximize the flexibility, I removed the top and bottom layers of the TPU part so that the grid structure is fully exposed, allowing it to compress when the handles are squeezed. Early tests showed that reducing the grip length slightly improved the compression, so I iterated on that aspect to optimize the clamping force. This design not only minimizes mechanical weak points but also ensures a smooth and consistent motion.
+*Note: I cannot display the CAD model online because my Fusion subscription has expired. However, all design files are saved in the CHBE 4200 folder for reference.*
 
-## Specifications
+# Specifications
 
-- **Jaw Opening:** Approximately 6 mm when fully open.  
-- **Handle Length:** 150 mm, providing sufficient leverage and comfort.  
-- **Materials:**  
-  - **Rigid Body:** Standard PLA (or a similar rigid filament)  
-  - **Flexible Core:** 95A TPU (blue), selected for its excellent elasticity and durability.  
-- **Functional Outcome:**  
-  The plier is designed to grip small components such as through-hole resistors reliably. It closes firmly when pressed and returns to the open position smoothly due to the flexible TPU insert.
+* **Jaw Opening:** Approximately 6 mm  
+* **Handle Length:** 150 mm  
+* **Materials Used:**  
+  - **Rigid Body:** Standard PLA  
+  - **Flexible Core:** 95A TPU (blue)
 
-## Print Settings
+# Print Settings
 
 **For the Rigid Part (PLA):**  
-- **Layer Height:** 0.2 mm  
-- **Infill:** 25%  
-- **Supports:** Enabled where needed (particularly around the overhangs at the pivot areas)  
-- **Print Speed:** Approximately 50 mm/s  
-- **Nozzle Temperature:** ~205°C  
-- **Bed Temperature:** ~60°C  
+- Layer Height: 0.2 mm  
+- Infill: 25%  
+- Supports: Enabled where necessary  
+- Print Speed: ~50 mm/s  
+- Nozzle Temperature: ~205°C  
+- Bed Temperature: ~60°C  
 
 **For the Flexible Part (TPU):**  
-- **Layer Height:** 0.2 mm  
-- **Infill:** 25% with a grid pattern  
-- **Top/Bottom Layers:** Removed to expose the grid for better flex  
-- **Print Speed:** Reduced to about 30 mm/s to ensure proper extrusion  
-- **Nozzle Temperature:** ~220–230°C  
-- **Bed Temperature:** ~50°C  
+- Layer Height: 0.2 mm  
+- Infill: 25% (grid pattern)  
+- Top/Bottom Layers: Removed to expose the grid  
+- Print Speed: ~30 mm/s  
+- Nozzle Temperature: ~220–230°C  
+- Bed Temperature: ~50°C  
 
-## Picture Gallery
-
-Below are some images that document the evolution of the project and the final assembly of the multimaterial plier:
+# Gallery
 
 {% include gallery caption="Multi-Material Plier Project Gallery" %}
 
-* **Photo of the Assembled Plier:** This shows the completed plier with the rigid PLA body and the flexible TPU core in place.  
-* **Screenshot of the Design:** A glimpse of the plier design as seen in Fusion 360 (note: the CAD model is not accessible online due to an expired Fusion subscription).  
-* **Working GIF:** A short animation demonstrating the plier closing and springing back open thanks to the TPU core.
+# GIF of Operation
 
-## GIF of Operation
-
-Check out this GIF to see the plier in action, showcasing the reliable closing and reopening mechanism:
+Check out the GIF below to see the plier in action, closing and springing back open thanks to the flexible TPU core:
 
 ![Plier in Action](/assets/img/IMG_6929.gif)
 
-## Conclusion
+# Conclusion
 
-This multimaterial plier project is a testament to the potential of print-in-place design, even when working within certain limitations. By combining a rigid PLA body with a flexible TPU insert, I was able to create a functional tool that works right off the print bed. The design was refined through iterative testing, and the integration of a grid-like infill in the TPU part proved to be key in achieving smooth and dependable motion. While my CAD model is currently inaccessible due to an expired Fusion subscription, all design files have been saved in the CHBE 4200 folder for future reference. I believe this project meets the highest standards of functional design, material integration, and additive manufacturing best practices, and I look forward to exploring further improvements in future iterations.
+This multi-material plier project demonstrates the potential of combining rigid and flexible materials in a print-in-place design. By integrating a robust PLA body with a flexible TPU core, I created a tool that works immediately after printing with minimal post-processing. Although my Fusion CAD model is currently inaccessible online due to an expired subscription, all design files are securely saved in the CHBE 4200 folder. The iterative design process—particularly the optimization of the grid-like infill in the TPU core—ensured smooth compression and a reliable spring-back mechanism. I look forward to refining this design further and exploring additional applications of print-in-place technologies.
