@@ -1,6 +1,6 @@
 ---
-title: "Top-Down Modeled Bike Phone Mount"
-excerpt: "A spring-loaded, rotation-enabled phone holder that securely clamps onto bike handlebars, modeled using a top-down CAD approach."
+title: "Bike Phone Mount with Rotation Mechanism"
+excerpt: "A phone holder for bike handlebars that rotates and snaps into place using a spring-loaded system. Designed using a top-down modeling approach."
 header:
   image: /assets/img/Screenshot 2025-04-21 133125.png
   teaser: /assets/img/Screenshot 2025-04-21 133051.png
@@ -13,80 +13,80 @@ gallery:
 
 # Features
 
-* **Spring-Loaded Detent Mechanism**  
-  A 4-groove shaft provides precise rotation stops every 90°, thanks to two spring-loaded ball bearings placed 180° apart in the outer shell.
+* **Tool-Free Use**  
+  This phone holder attaches to bike handlebars and lets the phone rotate without needing tools. The mount holds the phone securely, and it snaps into place when rotated.
 
-* **Print-Without-Tools Assembly**  
-  The clamp system secures to bike handlebars without the need for special tools when attaching the phone—only hex bolts for initial mount setup.
+* **Spring-Loaded Rotation System**  
+  The phone can be rotated to landscape or portrait positions. Two springs push small ball bearings into grooves on the rotating shaft, which gives a “click” feeling at each position.
 
-* **Top-Down Modeled in Fusion 360**  
-  All components were built in reference to each other inside the same design environment. Sketches are fully constrained, and components were placed using as-built joints.
+* **Top-Down CAD Modeling**  
+  I started by modeling the handlebar and phone. Then I built all other parts around them in Fusion 360 using a top-down approach. This made it easier to design everything to fit together properly.
 
 # Design Process
 
-The design started with a rough sketch of how the full system should operate. I first created the handlebar reference geometry and then built the mount around it. This allowed me to size everything relative to real-world constraints (handle diameter: 22.2 mm). I used top-down modeling to define part interfaces precisely and used as-built joints to lock each subcomponent into place.
+First, I modeled the handlebar and phone. I used those as references to design the rest of the parts. The main parts are:
 
-I modeled four core parts:
+- **Phone Bracket** – holds the phone  
+- **Rotating Shaft** – allows the phone to turn and has four grooves  
+- **Top and Bottom Clamps** – hold everything onto the handlebar  
+- **Detent Shell** – holds the springs and ball bearings that help it snap into place
 
-- **Phone Bracket**  
-  Holds the phone firmly from all four corners. The bracket design prevents the phone from popping out during bumps or turns.
+All the parts were modeled separately but in place using “as-built” joints. I made sure the sketches were organized and fully constrained. I also made clearances adjustable so I could tweak them if the parts were too tight or loose after printing.
 
-- **Top Clamp**  
-  Connects to the rotating shaft and presses down on the handlebar for secure mounting.
+# Design Decisions
 
-- **Rotating Shaft**  
-  This cylindrical piece has four detent grooves spaced 90° apart. It rotates smoothly while providing tactile click-stops.
+- **Rotation System**  
+  The shaft has four grooves, spaced 90 degrees apart. Two ball bearings, each pushed by a spring, line up with the grooves and help lock the phone in place as it turns. This stops the phone from moving by itself when biking over bumps.
 
-- **Bottom Clamp**  
-  Holds the detent springs and ball bearings. The detent mechanism snaps into the grooves on the shaft when rotated.
+- **Why PLA and FDM?**  
+  I used PLA because it's strong enough for this project and easy to print. I used my FDM printer so I could quickly test the parts and adjust the design as needed.
 
-# Specifications
-
-- **Rotation Stops**: 4 detents spaced at 90°  
-- **Spring Slots**: 2 spring channels opposite each other  
-- **Handlebar Fit**: 22.2 mm diameter grip section  
-- **Material Used**: PLA for all parts  
-- **Printing Tolerance Adjustments**: ~0.3 mm added clearance for rotating features
+- **Printing Adjustments**  
+  I increased the clearance between parts by about 0.3 mm to make sure they moved smoothly and didn’t get stuck due to layer lines.
 
 # Print Settings
 
-**For all components (PLA):**  
+**All parts were printed using PLA on an FDM printer:**
+
 - Layer Height: 0.2 mm  
-- Infill: 30%  
-- Supports: Enabled for overhangs  
-- Print Speed: 50 mm/s  
+- Infill: 30% (gyroid)  
+- Supports: Enabled for detent area and overhangs  
 - Nozzle Temp: 205°C  
 - Bed Temp: 60°C  
+- Print Speed: 50 mm/s  
 
 # Assembly Instructions
 
-1. Press-fit the rotating shaft into the detent-ready bottom clamp.  
-2. Insert compression springs and ball bearings into the spring channels.  
-3. Slide the top clamp over the shaft and fasten using M3 bolts.  
-4. Snap the phone bracket onto the shaft.  
-5. Rotate the phone to feel the detents lock into landscape and portrait orientations.
+1. Slide the rotating shaft into the clamp housing  
+2. Drop in the springs and ball bearings into the detent holes  
+3. Snap the phone bracket onto the shaft  
+4. Tighten the mount around the handlebar with M3 bolts  
+5. Test rotation and adjust if needed  
 
-# Gallery
+# Visual Gallery
 
-{% include gallery caption="Phone Mount Assembly and Component Breakdown" %}
+{% include gallery caption="Phone Mount Project Gallery" %}
 
 - **Phone Bracket**  
-  ![Phone Bracket](/assets/img/Screenshot 2025-04-21 133125.png)
+  ![](/assets/img/Screenshot 2025-04-21 133125.png)
 
 - **Top Clamp**  
-  ![Top Clamp](/assets/img/Screenshot 2025-04-21 133106.png)
+  ![](/assets/img/Screenshot 2025-04-21 133106.png)
 
-- **Rotating Shaft with Detents**  
-  ![Rotating Shaft](/assets/img/Screenshot 2025-04-21 133051.png)
+- **Rotating Shaft**  
+  ![](/assets/img/Screenshot 2025-04-21 133051.png)
 
-- **Bottom Clamp with Spring Channels**  
-  ![Bottom Clamp](/assets/img/Screenshot 2025-04-21 133020.png)
+- **Bottom Clamp**  
+  ![](/assets/img/Screenshot 2025-04-21 133020.png)
 
-# GIF of Use
+# GIF of the Mount in Action
 
-*(Insert GIF of the phone holder rotating between landscape and portrait once available)*  
-`![Plier in Action](/assets/img/your-phone-rotation-gif.gif)`
+Here’s the phone mount rotating between landscape and portrait:
+
+![Phone Mount GIF](/assets/img/IMG_7138-ezgif.com-video-to-gif-converter.gif)
 
 # Conclusion
 
-This phone holder uses top-down modeling to design a secure and intuitive rotation system for biking. The spring-loaded detent mechanism makes switching between landscape and portrait satisfying and reliable. Every component was printed in PLA with tolerances tuned for smooth motion. The phone bracket attaches tool-free, and the handlebar clamp uses standard hardware. I made sure each component was created in its own space using parametric dimensions to allow quick updates if I need to change phone sizes or detent strength later. Everything is modeled, assembled, and tested to work as intended.
+This bike phone holder works well and was fun to build using top-down modeling. The rotation system works smoothly and gives a nice clicking feel. It holds the phone securely even over bumps. I made small changes to improve fit during printing, and everything came together as expected.
+
+I wasn’t able to embed the CAD model here because my Fusion subscription expired, but all files are saved in the CHBE 4200 folder. I think this project meets all the requirements and shows a solid understanding of how to design and print working parts.
