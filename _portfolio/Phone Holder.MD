@@ -2,9 +2,10 @@
 title: "Bike Phone Mount with Rotation Mechanism"
 excerpt: "A phone holder for bike handlebars that rotates and snaps into place using a spring-loaded system. Designed using a top-down modeling approach."
 header:
-  image: /assets/img/Screenshot 2025-04-21 133125.png
+  image: /assets/img/IMG_7140.jpg
   teaser: /assets/img/Screenshot 2025-04-21 133051.png
 gallery:
+  - image_path: assets/img/IMG_7140.jpg
   - image_path: assets/img/Screenshot 2025-04-21 133125.png
   - image_path: assets/img/Screenshot 2025-04-21 133106.png
   - image_path: assets/img/Screenshot 2025-04-21 133051.png
@@ -29,7 +30,7 @@ First, I modeled the handlebar and phone. I used those as references to design t
 - **Phone Bracket** – holds the phone  
 - **Rotating Shaft** – allows the phone to turn and has four grooves  
 - **Top and Bottom Clamps** – hold everything onto the handlebar  
-- **Detent Shell** – holds the springs and ball bearings that help it snap into place
+- **Detent Shell (built into clamp)** – holds the springs and ball bearings that help it snap into place
 
 All the parts were modeled separately but in place using “as-built” joints. I made sure the sketches were organized and fully constrained. I also made clearances adjustable so I could tweak them if the parts were too tight or loose after printing.
 
@@ -61,11 +62,28 @@ All the parts were modeled separately but in place using “as-built” joints. 
 2. Drop in the springs and ball bearings into the detent holes  
 3. Snap the phone bracket onto the shaft  
 4. Tighten the mount around the handlebar with M3 bolts  
-5. Test rotation and adjust if needed  
+5. Rotate the phone to test the “click” feel and make sure it locks in place  
 
-# Visual Gallery
+# Interactive CAD Models
 
-{% include gallery caption="Phone Mount Project Gallery" %}
+### Phone Bracket  
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a410a8e8bce7674f2e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+### Top Clamp  
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a4ee21e23e8d81a4a0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+### Rotating Shaft  
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a4f16a9b18784416b6?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+### Bottom Clamp  
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a45b6d9adb803c7b8d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+# Gallery
+
+{% include gallery caption="Bike Phone Mount Gallery" %}
+
+- **Assembled Mount on Bike**  
+  ![](/assets/img/IMG_7140.jpg)
 
 - **Phone Bracket**  
   ![](/assets/img/Screenshot 2025-04-21 133125.png)
@@ -87,6 +105,6 @@ Here’s the phone mount rotating between landscape and portrait:
 
 # Conclusion
 
-This bike phone holder works well and was fun to build using top-down modeling. The rotation system works smoothly and gives a nice clicking feel. It holds the phone securely even over bumps. I made small changes to improve fit during printing, and everything came together as expected.
+This phone mount project was a great way to learn top-down modeling. I started with the phone and handlebar, then built each part around that reference. The spring-and-ball detent system gives a solid “click” and holds the phone in place while riding. The mount rotates smoothly and was easy to assemble after a few clearance tweaks. 
 
-I wasn’t able to embed the CAD model here because my Fusion subscription expired, but all files are saved in the CHBE 4200 folder. I think this project meets all the requirements and shows a solid understanding of how to design and print working parts.
+All parts were printed in PLA using FDM. The final model works exactly how I hoped, and it meets all the project requirements. I'm proud of how the detent system turned out and how everything fits together cleanly.
