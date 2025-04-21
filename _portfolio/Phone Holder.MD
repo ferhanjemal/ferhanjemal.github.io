@@ -11,64 +11,82 @@ gallery:
   - image_path: assets/img/Screenshot 2025-04-21 133020.png
 ---
 
-# Overview
+# Features
 
-This project is a **bike phone holder** designed using a top-down modeling approach. The holder grips onto standard handlebars and allows the phone to be rotated smoothly between landscape and portrait orientations using a mechanical detent system. My focus was to make a design that works without tools and provides secure, tactile feedback when rotating the phone.
+* **Spring-Loaded Detent Mechanism**  
+  A 4-groove shaft provides precise rotation stops every 90°, thanks to two spring-loaded ball bearings placed 180° apart in the outer shell.
 
-# Top-Down Modeling Strategy
+* **Print-Without-Tools Assembly**  
+  The clamp system secures to bike handlebars without the need for special tools when attaching the phone—only hex bolts for initial mount setup.
 
-I started by modeling the handlebar in Fusion 360 and used it as a fixed reference component. From there, I sketched the overall function of the mount system and broke it down into separate subassemblies: the main phone holder, clamp base, rotational shaft, and locking shell.
+* **Top-Down Modeled in Fusion 360**  
+  All components were built in reference to each other inside the same design environment. Sketches are fully constrained, and components were placed using as-built joints.
 
-Each part was modeled as a separate component and assembled in place using **as-built joints**. I created key reference sketches to define the interface between the parts, especially the interaction between the spring-loaded detent system and the rotating shaft. This helped me adjust dimensions easily during iteration. The detent features were built into the grooves of the cylinder and spaced 90 degrees apart to allow rotation between standard orientations.
+# Design Process
 
-# Design Rationale
+The design started with a rough sketch of how the full system should operate. I first created the handlebar reference geometry and then built the mount around it. This allowed me to size everything relative to real-world constraints (handle diameter: 22.2 mm). I used top-down modeling to define part interfaces precisely and used as-built joints to lock each subcomponent into place.
 
-* **Rotation Mechanism**:  
-  The phone holder rotates on a cylindrical shaft that has **four evenly spaced grooves**. These grooves are positioned every 90°, and two steel balls (held by compression springs) sit 180° apart on the housing. As the phone rotates, the balls fall into these grooves, providing a **firm snap** into place and tactile feedback. The detent system prevents accidental movement from road vibration while still allowing manual adjustment with a gentle twist.
+I modeled four core parts:
 
-* **Component Breakdown**:  
-  - **Clamp Base**: Grips the bike handlebar (designed for 22.2 mm grip area).  
-  - **Rotating Shaft**: Houses the 4 detent grooves and allows 360° rotation.  
-  - **Phone Holder Bracket**: Slides onto the shaft and clamps the phone from the sides.  
-  - **Detent Shell**: Holds the springs and ball bearings in position.
+- **Phone Bracket**  
+  Holds the phone firmly from all four corners. The bracket design prevents the phone from popping out during bumps or turns.
 
-* **Printing Adjustments**:  
-  I had to increase clearances slightly (about 0.3 mm) to compensate for FDM layer lines and ensure a smooth rotation. The spring grooves were tested in multiple configurations before I finalized the spacing and depth.
+- **Top Clamp**  
+  Connects to the rotating shaft and presses down on the handlebar for secure mounting.
 
-* **3D Printing Technology**:  
-  All parts were **FDM printed** with PLA for rigidity. TPU would have been too flexible for the holding components, and PETG wasn’t necessary since the strength of PLA was sufficient. I chose FDM because I could quickly iterate the detent mechanism.
+- **Rotating Shaft**  
+  This cylindrical piece has four detent grooves spaced 90° apart. It rotates smoothly while providing tactile click-stops.
 
-# Assembly Instructions
+- **Bottom Clamp**  
+  Holds the detent springs and ball bearings. The detent mechanism snaps into the grooves on the shaft when rotated.
 
-1. Press-fit the rotating shaft into the detent shell.  
-2. Insert springs and ball bearings into the shell grooves.  
-3. Snap the phone holder bracket onto the top of the shaft.  
-4. Secure the clamp base to the bike handlebar using M3 bolts.  
-5. Test for rotation — adjust clearance if too tight.
+# Specifications
+
+- **Rotation Stops**: 4 detents spaced at 90°  
+- **Spring Slots**: 2 spring channels opposite each other  
+- **Handlebar Fit**: 22.2 mm diameter grip section  
+- **Material Used**: PLA for all parts  
+- **Printing Tolerance Adjustments**: ~0.3 mm added clearance for rotating features
 
 # Print Settings
 
-- **Material**: PLA  
-- **Layer Height**: 0.2 mm  
-- **Infill**: 30% (gyroid)  
-- **Supports**: On for overhangs around detent chamber  
-- **Print Speed**: 50 mm/s  
-- **Nozzle Temp**: 205°C  
-- **Bed Temp**: 60°C
+**For all components (PLA):**  
+- Layer Height: 0.2 mm  
+- Infill: 30%  
+- Supports: Enabled for overhangs  
+- Print Speed: 50 mm/s  
+- Nozzle Temp: 205°C  
+- Bed Temp: 60°C  
 
-# Visuals
+# Assembly Instructions
 
-{% include gallery caption="Phone Mount Assembly and Components Gallery" %}
+1. Press-fit the rotating shaft into the detent-ready bottom clamp.  
+2. Insert compression springs and ball bearings into the spring channels.  
+3. Slide the top clamp over the shaft and fasten using M3 bolts.  
+4. Snap the phone bracket onto the shaft.  
+5. Rotate the phone to feel the detents lock into landscape and portrait orientations.
 
-*Individual Screenshots of Top-Down Components:*  
-- ![Phone Bracket](/assets/img/Screenshot 2025-04-21 133125.png)  
-- ![Clamp Base](/assets/img/Screenshot 2025-04-21 133106.png)  
-- ![Rotating Shaft with Grooves](/assets/img/Screenshot 2025-04-21 133051.png)  
-- ![Detent Shell](/assets/img/Screenshot 2025-04-21 133020.png)
+# Gallery
 
-## .GIF of Use  
-*Embed or link to GIF here once recorded showing smooth 90° phone rotation between landscape and portrait.*
+{% include gallery caption="Phone Mount Assembly and Component Breakdown" %}
+
+- **Phone Bracket**  
+  ![Phone Bracket](/assets/img/Screenshot 2025-04-21 133125.png)
+
+- **Top Clamp**  
+  ![Top Clamp](/assets/img/Screenshot 2025-04-21 133106.png)
+
+- **Rotating Shaft with Detents**  
+  ![Rotating Shaft](/assets/img/Screenshot 2025-04-21 133051.png)
+
+- **Bottom Clamp with Spring Channels**  
+  ![Bottom Clamp](/assets/img/Screenshot 2025-04-21 133020.png)
+
+# GIF of Use
+
+*(Insert GIF of the phone holder rotating between landscape and portrait once available)*  
+`![Plier in Action](/assets/img/your-phone-rotation-gif.gif)`
 
 # Conclusion
 
-This project was a great opportunity to apply **top-down modeling** in a practical application. Breaking down the functionality into components helped keep things organized and easy to modify. The detent mechanism worked really well—there's a satisfying click and enough resistance to keep the phone stable, even on rough terrain. I printed everything in PLA for quick iteration and durability, and I was able to get tight tolerances by parameterizing the clearances. The project is functional, modular, and satisfies all the requirements in the CHBE 4200 rubric.
+This phone holder uses top-down modeling to design a secure and intuitive rotation system for biking. The spring-loaded detent mechanism makes switching between landscape and portrait satisfying and reliable. Every component was printed in PLA with tolerances tuned for smooth motion. The phone bracket attaches tool-free, and the handlebar clamp uses standard hardware. I made sure each component was created in its own space using parametric dimensions to allow quick updates if I need to change phone sizes or detent strength later. Everything is modeled, assembled, and tested to work as intended.
