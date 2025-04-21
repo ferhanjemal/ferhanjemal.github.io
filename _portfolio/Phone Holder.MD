@@ -15,77 +15,84 @@ gallery:
 # Features
 
 * **Tool-Free Use**  
-  This phone holder attaches to bike handlebars and lets the phone rotate without needing tools. The mount holds the phone securely, and it snaps into place when rotated.
+  The phone holder clamps onto standard bike handlebars and allows the phone to rotate easily between landscape and portrait modes without extra hardware.
 
-* **Spring-Loaded Rotation System**  
-  The phone can be rotated to landscape or portrait positions. Two springs push small ball bearings into grooves on the rotating shaft, which gives a “click” feeling at each position.
+* **Spring-Loaded Detent System**  
+  Two springs push steel ball bearings into grooves spaced every 90° on the rotating shaft, providing a clear locking feel and helping the phone stay in place while riding.
 
-* **Top-Down CAD Modeling**  
-  I started by modeling the handlebar and phone. Then I built all other parts around them in Fusion 360 using a top-down approach. This made it easier to design everything to fit together properly.
+* **Top-Down Modeled Design**  
+  The system was built using top-down modeling in Fusion 360. Starting with the handlebar and phone placement, all components were created in reference to each other to ensure a clean fit and minimal interference.
 
 # Design Process
 
-First, I modeled the handlebar and phone. I used those as references to design the rest of the parts. The main parts are:
+The design was broken down into five main components:
 
-- **Phone Bracket** – holds the phone  
-- **Rotating Shaft** – allows the phone to turn and has four grooves  
-- **Top and Bottom Clamps** – hold everything onto the handlebar  
-- **Detent Shell (built into clamp)** – holds the springs and ball bearings that help it snap into place
+- **Phone Bracket** – printed in TPU to allow it to stretch slightly and grip the phone securely  
+- **Rotating Shaft** – has four detent grooves spaced 90° apart  
+- **Top Clamp** – houses part of the detent system and locks the shaft  
+- **Bottom Clamp** – secures the system to the bike handlebar  
+- **Detent Housing** – built into the clamp walls to hold springs and ball bearings
 
-All the parts were modeled separately but in place using “as-built” joints. I made sure the sketches were organized and fully constrained. I also made clearances adjustable so I could tweak them if the parts were too tight or loose after printing.
+All parts were modeled using “as-built” joints and organized sketches, with parameters added for clearances and easy adjustments during iteration. The top-down structure allowed changes to be made efficiently across components without misalignment.
 
 # Design Decisions
 
 - **Rotation System**  
-  The shaft has four grooves, spaced 90 degrees apart. Two ball bearings, each pushed by a spring, line up with the grooves and help lock the phone in place as it turns. This stops the phone from moving by itself when biking over bumps.
+  The rotation is achieved through ball bearings sitting in spring-loaded channels that align with four grooves. The grooves are spaced at 90° intervals and the detents are placed 180° apart. This system provides reliable snap positioning and keeps the phone from rotating on its own.
 
-- **Why PLA and FDM?**  
-  I used PLA because it's strong enough for this project and easy to print. I used my FDM printer so I could quickly test the parts and adjust the design as needed.
+- **Material Selection**  
+  PLA was used for the structural parts (shaft, clamps, housing) due to its rigidity. The phone holder bracket was printed in TPU to allow it to flex and wrap around the phone securely without using hinges or screws.
 
-- **Printing Adjustments**  
-  I increased the clearance between parts by about 0.3 mm to make sure they moved smoothly and didn’t get stuck due to layer lines.
+- **Print Adjustments**  
+  Clearance between the shaft and housing was increased by 0.3 mm to ensure smooth movement. Ball detents were tested in multiple iterations to fine-tune the snap strength and feel.
 
 # Print Settings
 
-**All parts were printed using PLA on an FDM printer:**
-
+**PLA Parts:**
 - Layer Height: 0.2 mm  
-- Infill: 30% (gyroid)  
-- Supports: Enabled for detent area and overhangs  
+- Infill: 30%  
+- Supports: Used for overhangs and detent sockets  
 - Nozzle Temp: 205°C  
 - Bed Temp: 60°C  
 - Print Speed: 50 mm/s  
 
+**TPU Part (Phone Holder):**
+- Layer Height: 0.2 mm  
+- Infill: 25%  
+- Print Speed: 30 mm/s  
+- Nozzle Temp: 225°C  
+- Bed Temp: 50°C  
+
 # Assembly Instructions
 
-1. Slide the rotating shaft into the clamp housing  
-2. Drop in the springs and ball bearings into the detent holes  
-3. Snap the phone bracket onto the shaft  
-4. Tighten the mount around the handlebar with M3 bolts  
-5. Rotate the phone to test the “click” feel and make sure it locks in place  
+1. Insert the rotating shaft into the top clamp  
+2. Place springs and ball bearings into the detent housing  
+3. Snap the TPU phone holder onto the shaft  
+4. Tighten the top and bottom clamps around the handlebar  
+5. Rotate the phone to check for smooth snapping between 90° positions
 
 # Interactive CAD Models
 
 ### Phone Bracket  
-<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a410a8e8bce7674f2e?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a410a8e8bce7674f2e?mode=embed" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
 
 ### Top Clamp  
-<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a4ee21e23e8d81a4a0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a4ee21e23e8d81a4a0?mode=embed" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
 
 ### Rotating Shaft  
-<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a4f16a9b18784416b6?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a4f16a9b18784416b6?mode=embed" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
 
 ### Bottom Clamp  
-<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a45b6d9adb803c7b8d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a45b6d9adb803c7b8d?mode=embed" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
 
-# Gallery
+# Visual Gallery
 
 {% include gallery caption="Bike Phone Mount Gallery" %}
 
-- **Assembled Mount on Bike**  
+- **Fully Assembled Phone Mount**  
   ![](/assets/img/IMG_7140.jpg)
 
-- **Phone Bracket**  
+- **Phone Bracket (TPU)**  
   ![](/assets/img/Screenshot 2025-04-21 133125.png)
 
 - **Top Clamp**  
@@ -99,12 +106,8 @@ All the parts were modeled separately but in place using “as-built” joints. 
 
 # GIF of the Mount in Action
 
-Here’s the phone mount rotating between landscape and portrait:
-
-![Phone Mount GIF](/assets/img/IMG_7138-ezgif.com-video-to-gif-converter.gif)
+![Phone Mount Rotation GIF](/assets/img/IMG_7138-ezgif.com-video-to-gif-converter.gif)
 
 # Conclusion
 
-This phone mount project was a great way to learn top-down modeling. I started with the phone and handlebar, then built each part around that reference. The spring-and-ball detent system gives a solid “click” and holds the phone in place while riding. The mount rotates smoothly and was easy to assemble after a few clearance tweaks. 
-
-All parts were printed in PLA using FDM. The final model works exactly how I hoped, and it meets all the project requirements. I'm proud of how the detent system turned out and how everything fits together cleanly.
+This project demonstrates a successful use of top-down modeling to design and 3D print a fully functional, modular phone mount. The combination of rigid and flexible materials, along with the spring-loaded detent mechanism, allows smooth rotation and secure positioning. The final product meets all performance expectations and project requirements.
