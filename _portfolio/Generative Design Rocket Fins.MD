@@ -11,6 +11,7 @@ gallery:
   - image_path: assets/img/Screenshot%202025-04-12%20220739.png
   - image_path: "assets/img/Untitled design (4).png"
   - image_path: "assets/img/Untitled design (5).png"
+  - image_path: "assets/img/IMG_7092 (2) (1).gif"
 ---
 
 # Features
@@ -59,6 +60,12 @@ Fixed constraint applied to the top ring where the part connects to the upper ro
 # Real-World Testing
 
 The final design was printed in PLA for functional verification. The part held up under test launches with no visible stress points or delamination. Real rocket test flights confirmed aerodynamic stability.
+
+# Rocket Engine Test - Live Firing
+
+The following GIF captures a live firing of an Estes E9-8 engine mounted in the generative design base. The part held up under the thermal and mechanical load with no visible deformation:
+
+![Rocket Engine Test](/assets/img/IMG_7092%20(2)%20(1).gif)
 
 # Critique of Generative Design
 
@@ -111,6 +118,9 @@ The final design was printed in PLA for functional verification. The part held u
 
 - **Rocket Assembly with Generative Base**  
   ![](/assets/img/Untitled%20design%20(5).png)
+
+- **Live Rocket Engine Firing on Generative Base**  
+  ![](/assets/img/IMG_7092%20(2)%20(1).gif)
 
 # Conclusion
 
