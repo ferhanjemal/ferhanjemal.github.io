@@ -28,6 +28,12 @@ gallery:
 * **Printed in Nylon 12 for SLS**  
   Final prototype ready for PA12 SLS printing on Formlabs Fuse 1.
 
+# Real-World Testing
+
+The following GIF captures a **live firing test** using an Estes E9-8 engine mounted in the generative design base. The part successfully withstood both thermal and mechanical stress without failure.
+
+<img src="/assets/img/IMG_7092%20(2)%20(1).gif" width="100%" alt="Rocket Engine Test">
+
 # Design Overview
 
 This project redesigns the bottom third of a model rocket to optimize for weight while maintaining structural functionality. The component includes the motor tube mount, structural fins, and interface ring for upper stage attachment. Designed for Selective Laser Sintering (SLS) in PA12 using unrestricted generative design.
@@ -57,15 +63,13 @@ This project redesigns the bottom third of a model rocket to optimize for weight
 **Constraints:**  
 Fixed constraint applied to the top ring where the part connects to the upper rocket to simulate attachment.
 
-# Real-World Testing
+# CAD Models
 
-The final design was printed in PLA for functional verification. The part held up under test launches with no visible stress points or delamination. Real rocket test flights confirmed aerodynamic stability.
+### 🔷 Generative Outcome  
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a4715a055cc57bcaf5?mode=embed" width="100%" height="480" allowfullscreen="true" frameborder="0"></iframe>
 
-# Rocket Engine Test - Live Firing
-
-The following GIF captures a live firing of an Estes E9-8 engine mounted in the generative design base. The part held up under the thermal and mechanical load with no visible deformation:
-
-![Rocket Engine Test](/assets/img/IMG_7092%20(2)%20(1).gif)
+### 🔶 Original Geometry  
+<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a48557d07ec26737a1?mode=embed" width="100%" height="480" allowfullscreen="true" frameborder="0"></iframe>
 
 # Critique of Generative Design
 
@@ -95,11 +99,6 @@ The following GIF captures a live firing of an Estes E9-8 engine mounted in the 
 - Nozzle Temp: 205°C  
 - Bed Temp: 60°C  
 
-# Interactive CAD Model
-
-### Generative Outcome  
-<iframe src="https://vanderbilt1629.autodesk360.com/shares/public/SH286ddQT78850c0d8a4ee21e23e8d81a4a0?mode=embed" width="640" height="480" allowfullscreen="true" frameborder="0"></iframe>
-
 # Gallery
 
 {% include gallery caption="Rocket Base Generative Design Gallery" %}
@@ -124,4 +123,4 @@ The following GIF captures a live firing of an Estes E9-8 engine mounted in the 
 
 # Conclusion
 
-This generative design project shows how effective lightweighting techniques paired with powder bed fusion (SLS) printing can produce highly functional aerospace components. The rocket base maintained mechanical integrity during real launches and significantly reduced weight, enabling higher altitudes and improved performance.
+This generative design project demonstrates how advanced design techniques and additive manufacturing can combine to produce structurally sound, lightweight, and highly functional aerospace components. The rocket base exceeded performance expectations in live testing.
