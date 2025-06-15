@@ -1,0 +1,9 @@
+# Ignore build outputs
+build/
+.pio/
+*.bin
+# Jekyll site output
+_site/
+
+# Ruby bundler
+vendor/
